@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dê a sua opinião | Ela vale muito!</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+	<!-- metatags -->
+	<meta name="author" content=" | desenvolvedor">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+	<!-- icone site -->
+	<link rel="shortcut icon" type="image-x/png" href="images/icones/site.ico">
+	<!-- charset -->
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image-x/png" href="images/agenda.ico">
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<!-- estilo -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header class="header1">
+		<div class="container">
+			<span>city</span>
+		</div><!-- container -->
+	</header><!-- header1 -->
+
+	<header class="header2">
+		<div class="container">
+			<h1>Fique a vontade para nos dar a sua opinião!</h1>
+				<a target="_blank" href="">&lt;Name /></a>
+				<a class="linkForm" href="#formulario"><span>Ir para o formulário</span></a>
+			<div class="clear"></div><!-- clear -->
+		</div><!-- container -->
+	</header><!-- header2 -->
+
+	<section class="texto-explicacao">
+		<div class="container">
+			<h3>Olá, tudo bem? <br/>Gostaria da sua ajuda para um novo projeto.<br/>
+				Está afim de ajudar? Ótimo, então siga os passos abaixo para participar :).</h3>
+			<p>A idéia é criar um blog para estudantes de administração e também para pessoas que simplesmente querem 
+				conhecer sobre esse mundo maravilhoso. Inicialmente o pensamento é de expor no blog conteúdos como:
+				notícias, podcasts com convidados, novidades etc...</p>
+			<p>Mas gostaria de saber o que vocês desejariam ver em blog sobre administração; o que atrairia em um artigo ou
+				outra coisa para poder você se interessar? O que vocês queriam poder encontrar no mesmo, e como gostariam
+				de interagir com as publicações? Gostaria de participar de podcasts?</p>
+			<p>Qualquer que seja a opinião é válida. Ela não será exposta para <b>ninguém</b>! Não importa se parece boba ou não,
+				é importante da mesma forma e você tem liberdade para falar o que quiser! Desde já fica aqui meus sinceros
+				agradecimentos a todos. E aguardem!</p>
+
+			<nav class="instrucao">
+				<span>Instruções para participar:</span>
+					<ul>
+						<li>Preencha o campo da sua idade (idade real)</li>
+						<li>Preencha a mensagem com sua sugestão (não há limite de linhas)</li>
+						<li>Clique em <b>enviar</b></li>
+					</ul>
+				<span>Rápido e fácil, não é?</span>
+			</nav><!-- instrucao -->
+
+			<div class="podcasts-descrip">
+				<span><b><a href="">Clique aqui</a></b> para saber o que são podcasts.</span>
+
+				<div class="podcasts-descrip-square">
+					<p>Podcast é um material entregue na forma de áudio,
+					muito semelhante a um rádio. A diferença é que fica disponível para
+					que o consumidor escute quando quiser, não é um programa ao vivo. 
+					Além disso, o conteúdo é criado sob demanda.</p>
+				</div><!-- podcasts-descrip-square -->
+
+			</div><!-- podcasts-descrip -->
+		</div><!-- container -->
+	</section><!-- texto-explicacao -->
+
+	<section id="formulario" class="formulario">
+		<div class="container">
+			<form id="form" method="post" action="form.php">
+				<input required type="hidden" name="nome do formulário" value="Pesquisa para blog">
+				<span>Idade*:</span>
+				<input required="" class="idade" id="idade" type="text" name="idade" placeholder="Ex: 23 anos">
+				<span>Sua mensagem*:</span>
+				<textarea required name="mensagem" class="mensagem" placeholder="Sua mensagem aqui!"></textarea>
+				<div class="class-enviar">
+					<input type="submit" name="enviar" value="Enviar" id="enviar">
+				</div>
+			</form>
+		</div><!-- container -->
+	</section><!-- formulario -->
+
+	<section class="agradecimento">
+		<div class="container">
+			<h3>Muito obrigado por participar!</h3>
+			<p>Em breve teremos nosso blog para poder interagir e compartilhar conhecimento
+ e a sua ajuda será de extrema importância para o desenvolvimento!</p>
+		</div><!-- container -->
+	</section><!-- agradecimento -->
+
+	<footer class="footer1">
+		<div class="container">
+			<h2>&lt;Name /></h2>
+			<a target="_blank" href="">site</a>
+		</div><!-- container -->
+	</footer>
+
+	<footer class="footer2"></footer><!-- footer2 -->
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.ajaxform.js"></script>
+<script src="js/validarForm.js"></script>
+<script src="js/functions.js"></script>
+</body>
+</html>

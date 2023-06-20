@@ -1,0 +1,258 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans'
+}
+
+html, body{
+	height: 100%;
+	cursor: url('../images/cursor.png'), auto;
+}
+
+* a{cursor: url('../images/pointer.png'), auto;}
+
+.clear{clear: both;}
+
+.container{
+	width: 100%;
+	max-width: 1050px;
+	padding: 0 4%;
+	margin: 0 auto;
+}
+
+header.header1{
+	width: 100%;
+	background-color: #0c2d48;
+	padding: 10px;
+	color: white;
+	font-weight: lighter;
+	text-align: center;
+}
+
+header.header2{
+	background-color: #145da0;
+	width: 100%;
+	height: 303px;
+	padding-top: 100px;
+	text-align: center;
+	color: white;
+}
+
+.header2 > .container{
+	max-width: 735px;
+	padding: 0 2%;
+}
+
+.header2 h2{
+	font-weight: 600;
+}
+
+.header2 a{
+	padding-top: 20px;
+	color: white;
+	font-size: 16px;
+}
+
+.header2 a:nth-of-type(1){
+	float: left;
+	text-decoration: none;
+}
+
+.header2 a:nth-of-type(2){
+	float: right;
+}
+
+/*texto de explicação*/
+
+section.texto-explicacao{
+	width: 100%;
+	padding-top: 150px;
+	color: #41729f;
+}
+
+.texto-explicacao h3{
+	font-size: 30px;
+	text-align: center;
+}
+
+.texto-explicacao > .container > p{
+	margin-bottom: 25px;
+	font-size: 21px;
+	font-weight: lighter;
+	text-align: justify;
+}
+
+.texto-explicacao > .container > p:nth-of-type(1){
+	margin-top: 60px;
+}
+
+.texto-explicacao nav.instrucao{
+	font-size: 21px;
+	font-weight: lighter;
+}
+
+nav.instrucao li{
+	margin-left: 20px;
+	list-style-type: decimal;
+}
+
+nav.instrucao > span{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+nav.instrucao > span:nth-of-type(2){
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.podcasts-descrip span b a{
+	text-decoration: none;
+	color: #41729f;
+	font-size: 21px;
+}
+
+.podcasts-descrip div.podcasts-descrip-square{
+	display: none;
+	width: 100%;
+	min-height: 160px;
+	max-width: 537px;
+	background-color: #a3ebb1;
+	color: #202020;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: lighter;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+/*sessão formulario*/
+
+section.formulario{
+	margin-top: 80px;
+	width: 100%;
+}
+
+.formulario > .container{
+	background-color: #f0fafb;
+	min-height:400px;
+	text-align: left;
+}
+
+.formulario form{
+	max-width: 550px;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.formulario form > span{
+	width: 100%;
+	padding-bottom: 5px;
+	display: inline-block;
+}
+
+.formulario form input[type=text]{
+	width: 100px;
+	height: 31px;
+	border: 1px solid #212121;
+	border-radius: 10px;
+	outline: 0;
+	padding: 5px;
+	margin-bottom: 20px;	
+}
+
+.formulario form textarea{
+	width: 100%;
+	max-width: 598px;
+	height: 227px;
+	border: 1px solid #212121;
+	border-radius: 10px;
+	outline: 0;
+	padding: 10px;
+	resize: vertical;
+}
+
+.formulario form input[type=submit]{
+	padding: 5px 50px;
+	background-color: #1c9b8e;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	border-radius: 20px;
+	border:0;
+	outline: 0;
+	cursor: url('../images/pointer.png'), auto;
+}
+
+.class-enviar{
+	margin-top: 15px;
+	text-align: right;
+}
+
+/*agradecimentos*/
+
+section.agradecimento{
+	width: 100%;
+	text-align: center;
+	color: #41729f;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	font-size: 21px;
+}
+
+
+.agradecimento h3{
+	font-size: 30px;
+}
+
+.agradecimento p{
+	margin: 20px auto 0 auto;
+	max-width: 800px;
+	font-weight: lighter;
+}
+
+/*footer*/
+
+footer.footer1{
+	background-color: #145da0;
+	width: 100%;
+	min-height: 280px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding-top: 120px;
+}
+
+footer.footer1 a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+footer.footer2{
+	width: 100%;
+	height: 48px;
+	background-color: #0c2d48;
+}
+
+/*media screen*/
+
+@media screen and (max-width: 768px){
+	header.header2{
+		padding-top: 90px;
+		font-size: 16px;
+	}
+
+	section.texto-explicacao{
+		padding-top: 100px;
+	}
+
+	.texto-explicacao h3{
+		font-size: 24px;
+	}
+
+}
